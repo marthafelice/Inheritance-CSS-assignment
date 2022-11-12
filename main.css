@@ -1,0 +1,82 @@
+
+/*DIV FOR LIKES (CLASS AND ID) */
+.likes{
+    color:green;
+    border: 3px  solid;
+    margin: 20px;
+    padding:30px
+
+}
+
+#div-likes{
+    color:blueviolet;
+    border: 3px  solid;
+    margin: 20px;
+    padding:30px
+}
+/* ID HAD A  GREATER SPECIFICITY HENCE THE DIV BORDER IS BLUEVIOLET */
+
+
+
+/* ORDERED LIST FOR LIKES (CLASS AND ID) */
+
+.class-ol{
+    color:green;
+    border: 3px  solid;
+    margin: 20px;
+    padding:30px
+}
+
+#id-ol{
+    color:red;
+    border: 3px  solid;
+    margin: 10px;
+    padding:30px
+}
+/* ID HAS A GREATER PRECEDENCE */
+/* THE DIV(PARENT) REMAINED WITH ITS COLOR AND THE ORDERED LIST(CHILD) TOOK ON THE COLOR RED 
+WHICH IS AN ATTRIBUTE OF ITS OWN */
+
+
+
+/*DIV FOR DISLIKES (CLASS AND ID) */
+.dislikes{
+    color:goldenrod;
+    border: 3px  solid;
+    margin: 20px;
+    padding:30px
+
+}
+
+#div-dislikes{
+    color:brown;
+    border: 3px  solid;
+    margin: 20px;
+    padding:30px
+}
+/* ID HAD A  GREATER SPECIFICITY HENCE THE DIV BORDER AND TEXT REMAINED BROWN WHICH ALSO SHOWS 
+INHERITANCE BEFORE WE STYLE FOR THE UNORDERED LIST*/
+
+
+
+/* UNORDERED LIST FOR DISLIKES (CLASS AND ID) */
+
+.class-ul{
+    color:rebeccapurple;
+    border: 3px  solid;
+    margin: 20px;
+    padding:30px
+}
+
+#id-ul{
+    color:teal;
+    border: 3px  solid;
+    margin: 10px;
+    padding:30px
+}
+/* ID HAS A GREATER PRECEDENCE */
+/* THE DIV(PARENT) REMAINED WITH ITS COLOR AND THE ORDERED LIST(CHILD) TOOK ON THE COLOR TEAL FROM BEING BROWN
+WHICH IS AN ATTRIBUTE OF ITS OWN */
+
+
+
